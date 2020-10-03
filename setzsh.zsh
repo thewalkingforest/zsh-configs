@@ -1,3 +1,3 @@
 #!bin/zsh
-cp ./.zshrc ~
-cp ./.zsh_aliases ~
+cp ./.zshrc $HOME
+cp ./.zsh_aliases $HOME
