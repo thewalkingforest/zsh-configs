@@ -4,20 +4,21 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # apt
-alias install='sudo apt install '
-alias update='sudo apt update && apt list --upgradeable '
-alias upgrade='sudo apt full-upgrade '
-alias remove='sudo apt remove '
+alias install='sudo apt install'
+alias update='sudo apt update && apt list --upgradeable'
+alias upgrade='sudo apt full-upgrade'
+alias remove='sudo apt purge'
 
 # Python
 alias py='python3'
 
-# Git
-alias gadd='git add '
-alias gclone='git clone '
-alias gcommit='git commit '
-alias gpush='git push '
+# git
+alias gadd='git add'
+alias gclone='git clone'
+alias gcommit='git commit'
+alias gpush='git push'
+alias gst='git status'
+alias glog='git log'
+alias ginit='git init'
+alias gpull='git pull'
 #alias gchkout='git checkout '
-alias gst='git status '
-alias glog='git log '
-alias ginit='git init '
