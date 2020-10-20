@@ -7,7 +7,8 @@ alias l='ls -CF'
 alias install='sudo apt install'
 alias update='sudo apt update && apt list --upgradeable'
 alias upgrade='sudo apt full-upgrade'
-alias remove='sudo apt purge'
+alias remove='sudo apt remove'
+alias purge='sudo apt purge'
 
 # Python
 alias py='python3'
