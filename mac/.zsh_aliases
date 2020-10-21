@@ -1,0 +1,18 @@
+# ls
+alias ll='ls -lAF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Python
+alias py='python3'
+
+# git
+alias gadd='git add'
+alias gclone='git clone'
+alias gcommit='git commit'
+alias gpush='git push'
+alias gst='git status'
+alias glog='git log'
+alias ginit='git init'
+alias gpull='git pull'
+#alias gchkout='git checkout'
