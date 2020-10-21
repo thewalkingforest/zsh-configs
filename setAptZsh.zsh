@@ -1,3 +1,3 @@
 #!/bin/zsh
 cp ./.zshrc $HOME
-cp ./.zsh_aliases $HOME
+cp ./apt/.zsh_aliases $HOME
