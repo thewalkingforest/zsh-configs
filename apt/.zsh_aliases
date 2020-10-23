@@ -9,6 +9,7 @@ alias update='sudo apt update && apt list --upgradeable'
 alias upgrade='sudo apt full-upgrade'
 alias remove='sudo apt remove'
 alias purge='sudo apt purge'
+alias search='apt search'
 
 # Python
 alias py='python3'
