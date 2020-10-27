@@ -6,9 +6,8 @@ alias l='ls -CF'
 # apt
 alias install='sudo apt install'
 alias update='sudo apt update && apt list --upgradeable'
-alias upgrade='sudo apt full-upgrade'
-alias remove='sudo apt remove'
-alias purge='sudo apt purge'
+alias upgrade='sudo apt full-upgrade && sudo apt autoremove'
+alias remove='sudo apt purge'
 
 # Python
 alias py='python3'
@@ -22,4 +21,4 @@ alias gst='git status'
 alias glog='git log'
 alias ginit='git init'
 alias gpull='git pull'
-#alias gchkout='git checkout '
+alias gcheckout='git checkout'
