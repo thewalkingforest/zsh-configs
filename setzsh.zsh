@@ -11,3 +11,5 @@ elif [ $1 = "apt" ]; then
 elif [ $1 = "pacman" ]; then
 	cp ./pacman/.zsh_aliases $HOME
 fi
+cp ./.zsh_paths $HOME
+cp ./.vimrc $HOME
