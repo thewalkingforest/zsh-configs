@@ -6,6 +6,7 @@ alias l='ls -CF'
 # apt
 alias install='sudo pacman -S'
 alias update='sudo pacman -Syu'
+alias remove='sudo pacman -Rcs'
 
 # Python
 alias py='python3'
@@ -19,4 +20,4 @@ alias gst='git status'
 alias glog='git log'
 alias ginit='git init'
 alias gpull='git pull'
-#alias gchkout='git checkout '
+alias gcheckout='git checkout'
