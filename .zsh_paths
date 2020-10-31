@@ -1,3 +1,9 @@
+# Adds Rust commands
 if [ -f $HOME/.cargo/bin ]; then
 	export PATH:$PATH:$HOME/.cargo/bin
+fi
+
+# Adds Homebrew commands
+if [ -f $HOME/.linuxbrew/bin ]; then
+	export PATH:$PATH:$HOME/.linuxbrew/bin
 fi
