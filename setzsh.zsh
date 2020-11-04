@@ -15,5 +15,6 @@ elif [ $1 = "pacman" ]; then
 else
 	echo "Package manager not supported"
 fi
+
 cp ./.zsh_paths $HOME
 cp ./.vimrc $HOME
